@@ -1,0 +1,385 @@
+* {
+  font-size: 30px;
+  
+}
+h1{
+  padding: 1em;
+  color: rgba(223, 206, 206, 0.75);
+  font-family: fantasy;  
+  background-color: rgb(54, 6, 94);  
+  top: 50%; 
+  margin: 30px;
+  font-size: 180%;
+  text-align: center;
+  
+  overflow: hidden;
+  transform: translateY(-50%);  
+    
+}
+body{
+  background-color: #011B17;
+  background-image: url(../imagenes/fondo.jpeg);
+  /*background-repeat: no-repeat;*/
+  background-position-x: center;
+  background-position-y: top 10px;
+  background-size: 700px 500px;
+}
+
+div {
+  background-color: rgb(243, 236, 236);
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  
+}
+
+.principal{
+  position: absolute;
+  left: 90px;
+}
+
+.cuatro_picas {
+  position: absolute;
+  left: 400px;
+  top: 50px;
+  transform: rotate(10deg);
+  width: 200px;
+  height: 290px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  z-index: 3;
+  animation-name: accion_picas;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-iteration-count: 3s;
+}
+
+.cabezera_picas {
+  margin: 10px;
+  height: 80px;
+  width: 50px;
+}
+
+.pie_picas {
+  margin: 10px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.picas_1 {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  font-size: 50px;
+}
+
+.picas_2 {
+  position: absolute;
+  left: 105px;
+  top: 40px;
+  font-size: 50px;
+}
+
+.picas_3 {
+  position: absolute;
+  left: 45px;
+  bottom: 40px;
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+
+.picas_4 {
+  position: absolute;
+  left: 110px;
+  bottom: 40px;
+  font-size: 50px;
+  transform: rotate(180deg);
+}
+@keyframes accion_picas {
+  0% {
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+  100% {
+      left: 400px;
+      top: 50px;
+      transform: rotate(10deg);
+  }
+}
+
+
+
+.siete_treboles {
+  position: absolute;
+  left: 200px;
+  top: 110px;
+  transform: rotate(-30deg);
+  width: 200px;
+  height: 290px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  z-index: 2;
+  animation-name: accion_treboles;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-iteration-count: 3s;
+}
+
+.cabezera_treboles {
+  margin: 10px;
+  height: 80px;
+  width: 50px;    
+}
+
+.pie_treboles {
+  margin: 10px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.treboles_1 {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  font-size: 40px;
+}
+
+.treboles_2 {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  font-size: 40px;
+  
+}
+
+.treboles_3 {
+  position: absolute;
+  left: 85px;
+  top: 80px;
+  font-size: 40px;
+  
+}
+
+.treboles_4 {
+  position: absolute;
+  right: 40px;
+  top: 120px;
+  font-size: 40px;
+ 
+}
+.treboles_5 {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+  font-size: 40px;
+  
+}
+
+.treboles_6 {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  font-size: 40px;
+  transform: rotate(180deg);
+}
+
+.treboles_7 {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  font-size: 40px;
+  transform: rotate(180deg);
+}
+@keyframes accion_treboles {
+  0% {
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+  100% {
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+}
+
+.seis_corazones{
+  position: absolute;
+  left: 300px;
+  top: 70px;
+  width: 250px;
+  height: 290px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  z-index: 2;
+  transform: rotate(-10deg);
+  animation-name: accion_corazones;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-iteration-count: 3s;
+}
+
+
+.cabezera_corazones {
+  margin: 10px;
+  height: 80px;
+  width: 50px;
+  color: red;  
+}
+
+.pie_corazones {
+  margin: 10px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+  color: red;
+}
+
+.corazones_1{
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  font-size: 50px;
+  color: red;
+}
+
+.corazones_2 {
+  position: absolute;
+  left: 100px;
+  top: 50px;
+  font-size: 50px;
+  color: red;
+}
+
+.corazones_3 {
+  position: absolute;
+  left : 50px;
+  top: 115px;
+  font-size: 50px;
+  color: red;
+}
+
+.corazones_4 {
+  position: absolute;
+  left : 100px;
+  top: 115px;
+  font-size: 50px;
+  color: red;
+}
+
+.corazones_5 {
+  position: absolute;
+  left : 50px;
+  bottom: 40px;
+  font-size: 50px;
+  transform: rotate(180deg);
+  color: red;
+}
+
+.corazones_6 {
+  position: absolute;
+  left : 100px;
+  bottom: 40px;
+  font-size: 50px;
+  transform: rotate(180deg);
+  color: red;
+}
+@keyframes accion_corazones {
+  0% {
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+  100% {
+      left: 300px;
+      top: 70px;
+      transform: rotate(-10deg);
+  }
+}
+
+
+
+.as_diamantes {
+  position: absolute;
+  left: 500px;
+  top: 70px;
+  transform: rotate(30deg);
+  width: 200px;
+  height: 290px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: red;
+  z-index: 4;
+  animation-name: accion_diamantes;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-iteration-count: 3s;
+  
+}
+
+.cabezera_diamantes {
+  margin: 10px;
+  height: 80px;
+  width: 50px;
+}
+
+.pie_diamantes {
+  margin: 10px;
+  width: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+
+.diamantes1 {
+  position: absolute;
+  left: 65px;
+  top: 95px;
+  font-size: 80px;
+  color: red;  
+}
+
+
+
+
+@keyframes accion_diamantes {
+  0% {
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+  100% {
+      left: 500px;
+      top: 70px;
+      transform: rotate(40deg);
+  }
+}
+
+@keyframes accion_treboles {
+  
+  0% {
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+  100% {
+    
+      left: 200px;
+      top: 110px;
+      transform: rotate(-30deg);
+  }
+}
+
